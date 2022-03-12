@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    font-size: 60px;
+}
 body {
     background-color: rgb(248, 231, 205);
 }
@@ -5,41 +12,41 @@ body {
 h1 {
     color:rgb(0, 0, 116);
     
-    padding-left: 400px;
-    font-size: 60px;
 
 }
 h2 {
     color:rgb(0, 0, 116);
     
-    padding-left: 600px;
-    font size: 50px;
-}
-.Logo {
-    height: 500px;
-    padding-left: 175px;
-}
-.town {
-    height: 200px;
-    
-    padding-left: 525px;
-
-
-}
-.food {
-    height: 200px;
-    
-    padding-left: 525px;
-
-}
-.shop {
-    height: 200px;
-    
-    padding-left: 525px;
-
 }
 ul{
-    
-    padding-left: 525px;
+    display: inline;
 
+}
+
+.div-cont {
+    border:solid black;
+}
+
+.img {
+    border:solid black;
+    position: absolute;
+    width: 100px;
+    display: inline;
+}
+
+.list {
+    border:solid black;
+    display: inline;
+    width: 100px;
+    display: inline;
+}
+
+.img_test {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.list_test {
+    display: inline-block;
 }
